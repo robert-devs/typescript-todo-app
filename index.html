@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Todo List</title>
+    <title>Todo-typescript </title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -38,8 +38,8 @@
                         <textarea class="input" id="description-input" rows="4" placeholder="Enter todo" ></textarea>
                     </div>
                     <div class="button-container ">
-                        <button id="" onclick="newTodoSubmit()">Add</button>
-                        <button id="" onclick="editTodoSubmit()">updates</button>
+                        <button id="add-btn" onclick="newTodoSubmit()">Add</button>
+                        <button id="update-btn"  style="display: none;" onclick="update(this)">update</button>
                     </div>
                 </div>
             </div>
