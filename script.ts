@@ -256,28 +256,8 @@ const update = (target: HTMLButtonElement) => {
     }
 
 
-
-
-
-
-
 }
 
-
-
-
-
-// const checkBoxChange = (e: any) => {
-    // const todoId = e.parentElement.id
-
-//     const updatedTodos = todos.map((todo: { id: number; completed: true; }) => {
-//         // console.log(todo.id, todoId);
-//         if (todo.id === parseInt(todoId)) todo.completed = e.checked
-//         return todo
-//     })
-//     loadTodos(updatedTodos)
-//     todos = updatedTodos
-// }
 
 
 
