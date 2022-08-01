@@ -64,7 +64,7 @@ class Tasks {
 
         this.todosArray = updatedTodos
         this.loadTodos()
-    }
+    } 
 
     checkTodo = (id: number) => {
         const newTodos = this.todosArray.map(todo => {
@@ -257,8 +257,3 @@ const update = (target: HTMLButtonElement) => {
 
 
 }
-
-
-
-
-
